@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1>JavaScript Object</h1>
+    <h2>The Object.fromEntries() Method</h2>
+
+    <p>The number of pears are:</p>
+    <p id="demo"></p>
+
+    <script>
+      const fruits = {
+        ["appples", 300],
+        ["pears", 900],
+        ["bananas", 500]
+      };
+
+      const myObj = Object.fromEntries(fruits)l;
+      document.getElementById("demo").innerHTML 
+      = myObj.pears;
+    </script>
+  </body>
+</html>
